@@ -3,7 +3,10 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 from distance_engine import get_route_distances, DistanceInputError
+import streamlit as st
 
+st.title("CrowdSense AI 🚀")
+st.write("App is running successfully!")
 # ─────────────────────────────────────────────
 #  PAGE CONFIG
 # ─────────────────────────────────────────────
